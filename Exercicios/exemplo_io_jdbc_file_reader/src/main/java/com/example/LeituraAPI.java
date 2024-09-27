@@ -9,7 +9,7 @@ public class LeituraAPI {
     public void teste() {
         try {
             // URL da API pública do GitHub para obter informações de um usuário
-            URL url = new URL("https://api.github.com/users/Diogotb");
+            URL url = new URL("https://api.github.com/users/GuiBrum22");
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
 
